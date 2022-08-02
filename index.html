@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fenda do Biquíni - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagem/bob-esponja.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagem/logo-bob-esponja.png" alt="logo"  class="logo-bob">
+        <h1 class="titulo">Fenda do Biquíni - MapaDev Week</h1>
+    </header>
+    
+    <main class="personagem-slider">
+        <button class="botao-seta botao-voltar" id="botao-voltar"  >
+            <img src="src/imagem/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado  fundo-1">
+               <div class="informacoes">
+                <h2 class="nome">Bob Esponja</h2>
+                <!-- <p class="vida">HP 300</p> -->
+             </div>
+                <div class="container-imagem">
+                    <img src="src/imagem/bob-esponja.png" alt="Bob Esponja" class="imagem-personagens" >
+               </div> 
+               <div class="descricao">
+                    <h3 class="sub-titulo">Descrição</h3>
+                    <p class="texto">Bob Esponja é uma esponja marinha bondosa, otimista, alegre, ingênua e amigável que mora na cidade submarina da Fenda do Biquíni juntamente com diversas criaturas antropomórficas.</p>
+               </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes"   >
+                 <h2 class="nome">Patrick</h2>
+                 <!-- <p class="vida">HP 800</p> -->
+              </div>
+                 <div>
+                     <img src="src/imagem/patrick.png" alt="Patrick"  class="imagem-personagens">
+                </div> 
+                <div class="descricao"  >
+                     <h3 class="sub-titulo">Descrição</h3>
+                     <p class="texto">Patrick é o melhor amigo "ignorante", mas muito bem-humorado de Bob Esponja. Ele é retratado como uma estrela do mar rosa com sobrepeso, que serve como o idiota da cidade subaquática de Fenda do Bikini. Patrick fica mais burro ao longo da série e tem demonstrado cometer muitos erros ridículos.</p>
+                </div>
+             </li>
+
+             <li class="cartao   fundo-3">
+                <div class="informacoes">
+                 <h2 class="nome">Lula Molusco</h2>
+                 <!-- <p class="vida">HP 1200</p> -->
+              </div>
+                 <div>
+                     <img src="src/imagem/lula-molusco.png" alt="Lula Molusco" class="imagem-personagens"   >
+                </div> 
+                <div class="descricao" >
+                     <h3 class="sub-titulo" >Descrição</h3>
+                     <p class="texto">É negativo ao extremo, sua voz é anasalada, anda sempre entediado e possui manias excêntricas. Acredita que todos à sua volta são insuportáveis, principalmente seu vizinho Bob Esponja que está sempre alegre e seu amigo Patrick Estrela que o considera lerdo demais.</p>
+                </div>
+             </li>
+
+             <li class="cartao   fundo-4">
+                <div class="informacoes">
+                 <h2 class="nome">Sirigueijo</h2>
+                 <!-- <p class="vida">HP 1000</p> -->
+              </div>
+                 <div>
+                     <img src="src/imagem/sirigueijo.png" alt="Seu sirigueijo" class="imagem-personagens"   >
+                </div> 
+                <div class="descricao" >
+                     <h3 class="sub-titulo" >Descrição</h3>
+                     <p class="texto">O Seu Sirigueijo é extremamente ganancioso, folgado, egoísta, sovina e literalmente obcecado por dinheiro.</p>
+                </div>
+             </li>
+
+             <li class="cartao   fundo-5">
+                <div class="informacoes">
+                 <h2 class="nome">Sandy</h2>
+                 <!-- <p class="vida">HP 1000</p> -->
+              </div>
+                 <div>
+                     <img src="src/imagem/sandy.png" alt="Sandy" class="imagem-personagens"   >
+                </div> 
+                <div class="descricao">
+                     <h3 class="sub-titulo">Descrição</h3>
+                     <p class="texto">Sandy é geralmente gentil e atenciosa com Bob Esponja e é conhecida por ajudá-lo quando ele está se sentindo perdido. No entanto, em episódios mais antigos, ela se mostra muito mais louca. </p>
+                </div>
+             </li>
+
+             <li class="cartao  fundo-6">
+                <div class="informacoes">
+                 <h2 class="nome">Plankton</h2>
+                 <!-- <p class="vida">HP 1000</p> -->
+              </div>
+                 <div>
+                     <img src="src/imagem/plankton.png" alt="Plankton" class="imagem-personagens" >
+                </div> 
+                <div class="descricao">
+                     <h3 class="sub-titulo">Descrição</h3>
+                     <p class="texto">Esse miúdo vilão de personalidade arrogante, tenta roubar, a todo custo, a receita secreta do hambúrguer de siri, propriedade do Seu Sirigueijo. Plankton, apesar de reiteradas tentativas, nada conseguiu. </p>
+                </div>
+             </li>
+
+        </ul>
+
+        <button class="botao-seta" id="botao-avancar"   >
+            <img src="src/imagem/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>  
+</body>
+</html>
